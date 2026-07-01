@@ -26,7 +26,7 @@ Apply this skill to turn "let AI find me" into a small, testable GEO foundation 
    - crawl/render/index blockers -> `ganhuo-geo-technical-audit`;
    - platform citation baselines and retesting -> `ganhuo-llm-citation-growth`;
    - Reddit/search-thread opportunity -> `ganhuo-reddit-seo-geo`;
-   - no real gap -> stop and say why.
+   - strong foundation already in place -> surface the next best AI-visibility growth opportunity.
 
 ## Output
 

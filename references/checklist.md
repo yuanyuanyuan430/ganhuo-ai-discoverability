@@ -18,7 +18,7 @@ Score each area as `0 missing`, `1 partial`, or `2 ready`. Prioritize the items 
 - Route to `ganhuo-geo-technical-audit` when crawlers cannot access, render, index, canonicalize, or parse the site.
 - Route to `ganhuo-llm-citation-growth` when baseline prompts, competitor citations, source gaps, or retest loops are the main work.
 - Route to `ganhuo-reddit-seo-geo` when Reddit threads already rank or appear in AI answers for the niche.
-- Mark the foundation complete when the entity is discoverable, accurately described, and backed by useful source surfaces.
+- Mark the foundation complete when the entity is discoverable, accurately described, and backed by useful public-facing assets.
 
 ## Output Template
 

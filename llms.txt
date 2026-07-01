@@ -1,0 +1,27 @@
+# ganhuo-ai-discoverability
+
+> A Codex Skill that helps websites, products, open-source projects, SaaS tools, content brands, and personal brands improve AI discoverability.
+
+## What It Does
+
+ganhuo-ai-discoverability creates an AI Discoverability Brief for a target site or project. It maps the entity, audience, answer intents, owned source assets, AI-readable entry points, crawl/index foundations, and citation readiness.
+
+The goal is to make modern AI systems such as ChatGPT, Claude, Perplexity, Gemini, and Google AI answers more likely to discover, understand, recommend, and cite the project when relevant.
+
+## Key Files
+
+- [README](https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability#readme)
+- [Skill Instructions](https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability/blob/main/SKILL.md)
+- [Checklist](https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability/blob/main/references/checklist.md)
+
+## Best Use Cases
+
+- Improve AI visibility for a GitHub project.
+- Prepare a SaaS or tool website for AI search.
+- Clarify brand/entity positioning for AI answers.
+- Plan llms.txt, Markdown routes, sitemap, and source assets.
+- Turn scattered pages into citation-ready project knowledge.
+
+## Repository
+
+https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability

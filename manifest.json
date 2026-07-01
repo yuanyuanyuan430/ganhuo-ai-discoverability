@@ -1,7 +1,7 @@
 {
   "name": "ganhuo-ai-discoverability",
   "version": "1.0.0",
-  "description": "干活 AI 可发现性优化：让网站、产品和开源项目更容易被新时代 AI 发现、理解、推荐和引用。",
+  "description": "干活 AI 可发现性优化：把网站、产品和开源项目包装成更容易被新时代 AI 发现、理解、推荐和引用的内容资产。",
   "author": "ganhuo-ai",
   "license": "MIT",
   "entry": "SKILL.md",
@@ -11,6 +11,8 @@
     "AI Search",
     "llms.txt",
     "AI discoverability",
-    "Codex Skill"
+    "Codex Skill",
+    "AI visibility",
+    "AI recommendation"
   ]
 }

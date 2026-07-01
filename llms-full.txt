@@ -1,0 +1,47 @@
+# ganhuo-ai-discoverability Full Context
+
+ganhuo-ai-discoverability is a Codex Skill for AI discoverability, GEO, AEO, and AI Search readiness. It helps a project become easier for AI systems to find, understand, recommend, and cite.
+
+## Positioning
+
+The skill is designed for websites, products, open-source projects, SaaS tools, content brands, knowledge bases, and personal brands that want a clearer presence in AI answer ecosystems.
+
+Instead of treating AI visibility as vague SEO advice, the skill turns it into a compact execution brief:
+
+- Who is the entity?
+- What should AI understand about it?
+- Which user questions should trigger it?
+- Which pages and assets best express the project's advantages?
+- Can search and retrieval systems access the right URLs?
+- Are there AI-readable entry points such as llms.txt and Markdown routes?
+- Are the important pages structured enough to be quoted or summarized?
+- What are the highest-leverage next actions?
+
+## Core Workflow
+
+1. Define the target entity: brand, person, product, project, domain, market, language, and target AI-answer scenarios.
+2. Build a baseline across target AI platforms.
+3. Inventory promotion assets: website, documentation, blog, GitHub, reviews, cases, media, third-party mentions, datasets, and profiles.
+4. Check discoverability foundations: crawler access, user-triggered fetch access, robots.txt, WAF, sitemap, and indexing.
+5. Add AI-readable entry points: llms.txt, llms-full.txt, Markdown routes, alternate Markdown links, sitemap submission, and IndexNow where appropriate.
+6. Shape citation-ready pages with descriptive titles, natural-language slugs, concise entity summaries, comparisons, proof, limitations, statistics, and source links.
+7. Mirror critical structured data onto the main domain when key assets live on subdomains.
+8. Route deeper work to technical audit, citation growth, or Reddit SEO/GEO workflows when needed.
+
+## Output
+
+The main output is an AI Discoverability Brief:
+
+- Entity Map
+- Answer Intent Map
+- Asset Inventory
+- Foundation Checklist
+- Citation Readiness
+- Next Actions
+- Route to deeper workflows
+
+## Why It Matters
+
+AI systems increasingly act as discovery, comparison, and recommendation layers. Projects that are clear, structured, and easy to cite have a better chance of being represented accurately in these answer environments.
+
+ganhuo-ai-discoverability helps a project package its real advantages in a way AI systems can parse and reuse.

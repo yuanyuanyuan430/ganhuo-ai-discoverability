@@ -13,7 +13,7 @@ Apply this skill to turn "let AI find me" into a small, testable GEO foundation 
 
 1. Define the target entity: brand, person, product, project, domain, market, language, and the AI-answer scenarios that should surface it.
 2. Build a baseline: record current visibility in ChatGPT, Claude, Perplexity, Gemini, Google AI answers, or the specific platforms the user cares about.
-3. Inventory source surfaces: owned pages, docs, blog posts, GitHub, app listings, social profiles, reviews, case studies, third-party mentions, datasets, and media.
+3. Inventory promotion assets: owned pages, docs, blog posts, GitHub, app listings, social profiles, reviews, case studies, third-party mentions, datasets, and media.
 4. Check discoverability foundations:
    - search/retrieval crawlers can access the important URLs;
    - user-triggered fetchers are not blocked by WAF or auth walls;
@@ -34,7 +34,7 @@ Return a compact AI discoverability brief:
 
 - entity map;
 - answer-intent table;
-- source asset inventory;
+- promotion asset inventory;
 - crawler/indexing/AI-readable-file checklist;
 - citation-readiness gaps;
 - next actions with owner, verification step, and route to related skills.
@@ -44,7 +44,6 @@ Limit action items to the smallest set that changes discoverability. Prefer one 
 ## References
 
 Read `references/checklist.md` for scoring, routing rules, and output templates.
-Read `references/source-map.md` for source provenance and adjacent skill boundaries.
 
 ## Operating Principles
 

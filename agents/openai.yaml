@@ -1,0 +1,4 @@
+interface:
+  display_name: "干活 AI 可发现性优化"
+  short_description: "建立 llms.txt、Markdown 路由、索引和内容结构，让 AI 更容易发现并理解你"
+  default_prompt: "Use $ganhuo-ai-discoverability to create an AI discoverability brief for this site or project."

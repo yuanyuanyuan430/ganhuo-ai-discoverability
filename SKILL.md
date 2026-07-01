@@ -20,7 +20,7 @@ Apply this skill to turn "let AI find me" into a small, testable GEO foundation 
    - training crawlers are handled separately from search visibility;
    - robots.txt rules are verified against current official bot docs before exact edits.
 5. Add AI-readable entry points: `llms.txt`, `llms-full.txt`, Markdown routes, `rel="alternate"` Markdown links, sitemap submission, Bing/Google indexing checks, and IndexNow where appropriate.
-6. Shape citation-ready pages: descriptive titles, natural-language URL slugs, clear entity summaries, comparisons, proof, limitations, statistics, and source links.
+6. Shape citation-ready pages: descriptive titles, natural-language URL slugs, clear entity summaries, comparisons, proof, limitations, statistics, and material links.
 7. Mirror critical structured data onto the main domain when key assets live on subdomains.
 8. Route deeper work:
    - crawl/render/index blockers -> `ganhuo-geo-technical-audit`;
@@ -43,11 +43,11 @@ Limit action items to the smallest set that changes discoverability. Prefer one 
 
 ## References
 
-Read `references/checklist.md` for scoring, routing rules, and output templates.
+Read `references/ai-discoverability-checklist.md` for scoring, routing rules, and output templates.
 
 ## Operating Principles
 
-- Present the user's strongest real advantages with clear evidence, useful comparisons, and sourceable proof.
-- Prefer tactics that improve long-term AI understanding: cleaner entities, cleaner URLs, better entry files, richer sources, and stronger third-party proof.
+- Present the user's strongest real advantages with clear evidence, useful comparisons, and reusable proof.
+- Prefer tactics that improve long-term AI understanding: cleaner entities, cleaner URLs, better entry files, richer public assets, and stronger third-party proof.
 - Route deeper technical, citation, or Reddit work to the adjacent skill so this skill stays focused on the discoverability foundation.
 - Verify current platform docs before giving exact crawler, WAF, IndexNow, or search-console instructions.

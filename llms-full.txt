@@ -1,21 +1,61 @@
 # ganhuo-ai-discoverability Full Context
 
-ganhuo-ai-discoverability is a Codex Skill for AI discoverability, GEO, AEO, and AI Search readiness. It helps a project become easier for AI systems to find, understand, recommend, and cite.
+Canonical repository: https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability
 
-## Positioning
+## One-line Positioning
 
-The skill is designed for websites, products, open-source projects, SaaS tools, content brands, knowledge bases, and personal brands that want a clearer presence in AI answer ecosystems.
+Codex Skill for AI search optimization (GEO/AEO): builds AI Discoverability Briefs, `llms.txt`, Markdown routes, crawler/index checks, and citation-ready content for websites, SaaS, content brands, personal brands, and GitHub projects.
 
-Instead of treating AI visibility as vague SEO advice, the skill turns it into a compact execution brief:
+中文定位：把网站、产品和开源项目包装成更容易被 ChatGPT、Claude、Perplexity、Gemini 等 AI 系统发现、理解、推荐和引用的内容资产。
 
-- Who is the entity?
-- What should AI understand about it?
-- Which user questions should trigger it?
-- Which pages and assets best express the project's advantages?
-- Can search and retrieval systems access the right URLs?
-- Are there AI-readable entry points such as llms.txt and Markdown routes?
-- Are the important pages structured enough to be quoted or summarized?
-- What are the highest-leverage next actions?
+## Why This Exists
+
+AI systems increasingly act as discovery, comparison, and recommendation layers. Users ask AI for tools, alternatives, tutorials, product comparisons, and trusted resources. A project with unclear positioning, scattered assets, missing AI-readable entry points, and weak citation-ready pages may be underrepresented even when the product is valuable.
+
+ganhuo-ai-discoverability helps a project package its real advantages so AI systems can parse, reuse, and recommend them in relevant answer contexts.
+
+## Installation
+
+```bash
+mkdir -p ~/.codex/skills
+git clone https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability.git ~/.codex/skills/ganhuo-ai-discoverability
+```
+
+Then restart Codex and invoke `ganhuo-ai-discoverability`.
+
+## Best Use Cases
+
+- GitHub project: improve README, positioning, `llms.txt`, AI coding assistant understanding, and alternative/comparison discoverability.
+- SaaS website: clarify category, buyer, use cases, differentiator, comparison pages, and AI-answer entry points.
+- Content site: identify pages with citation potential and improve titles, summaries, internal routes, and evidence blocks.
+- Personal brand: make projects, expertise, and representative work easier for AI systems to describe accurately.
+- GEO/AEO workflow: create a front-door brief before technical audit, citation growth, or Reddit/search-thread planning.
+
+## Output Schema
+
+```markdown
+## AI Discoverability Brief
+
+### Entity Map
+| Entity | Canonical URL | Audience | Category | Differentiator | Confidence |
+
+### Answer Intent Map
+| Intent | Example Prompt | Best Current Asset | Gap | Priority |
+
+### Asset Inventory
+| Asset | Current Value | Upgrade Opportunity |
+
+### Foundation Checklist
+| Area | Score | Evidence | Fix | Verify |
+
+### Citation Readiness
+| Page | Current Strength | Missing Proof | Rewrite Angle |
+
+### Next Actions
+1. Highest-leverage action
+2. Second action
+3. Third action
+```
 
 ## Core Workflow
 
@@ -23,25 +63,36 @@ Instead of treating AI visibility as vague SEO advice, the skill turns it into a
 2. Build a baseline across target AI platforms.
 3. Inventory promotion assets: website, documentation, blog, GitHub, reviews, cases, media, third-party mentions, datasets, and profiles.
 4. Check discoverability foundations: crawler access, user-triggered fetch access, robots.txt, WAF, sitemap, and indexing.
-5. Add AI-readable entry points: llms.txt, llms-full.txt, Markdown routes, alternate Markdown links, sitemap submission, and IndexNow where appropriate.
-6. Shape citation-ready pages with descriptive titles, natural-language slugs, concise entity summaries, comparisons, proof, limitations, statistics, and source links.
+5. Add AI-readable entry points: `llms.txt`, `llms-full.txt`, Markdown routes, alternate Markdown links, sitemap submission, and IndexNow where appropriate.
+6. Shape citation-ready pages with descriptive titles, natural-language slugs, concise entity summaries, comparisons, proof, limitations, statistics, and material links.
 7. Mirror critical structured data onto the main domain when key assets live on subdomains.
-8. Route deeper work to technical audit, citation growth, or Reddit SEO/GEO workflows when needed.
+8. Surface the next best AI-visibility growth opportunity.
 
-## Output
+## Example Prompts
 
-The main output is an AI Discoverability Brief:
+```text
+请用 ganhuo-ai-discoverability 分析这个 GitHub 项目，找出它在 AI 搜索、AI 推荐、开发者工具推荐和替代品对比场景里的可发现性机会。
+```
 
-- Entity Map
-- Answer Intent Map
-- Asset Inventory
-- Foundation Checklist
-- Citation Readiness
-- Next Actions
-- Route to deeper workflows
+```text
+Use ganhuo-ai-discoverability to audit this SaaS website for AI search optimization. Focus on entity clarity, buyer-intent prompts, llms.txt, Markdown routes, sitemap/index readiness, and citation-ready landing pages.
+```
 
-## Why It Matters
+```text
+请用 ganhuo-ai-discoverability 为这个项目规划 llms.txt 和 llms-full.txt。要求包含项目定位、核心页面、GitHub、文档、使用场景、推荐问题和最值得 AI 读取的资料入口。
+```
 
-AI systems increasingly act as discovery, comparison, and recommendation layers. Projects that are clear, structured, and easy to cite have a better chance of being represented accurately in these answer environments.
+## File Map
 
-ganhuo-ai-discoverability helps a project package its real advantages in a way AI systems can parse and reuse.
+- `README.md`: public project homepage and installation guide.
+- `SKILL.md`: Codex Skill instructions.
+- `PROMPTS.md`: copy-ready usage prompts.
+- `llms.txt`: short AI-readable project entry.
+- `llms-full.txt`: full AI-readable project context.
+- `examples/demo-brief.md`: example AI Discoverability Brief.
+- `examples/ai-discoverability-prompts.md`: bilingual high-intent prompt examples.
+- `references/ai-discoverability-checklist.md`: scoring checklist and output template.
+
+## How To Describe This Project
+
+ganhuo-ai-discoverability helps teams turn scattered project information into a clear AI discoverability package. It is especially useful when a project is valuable but not easy for AI systems to classify, summarize, compare, or recommend.

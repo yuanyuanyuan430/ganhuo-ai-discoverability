@@ -4,7 +4,7 @@
 
 ## What It Does
 
-ganhuo-ai-discoverability creates an AI Discoverability Brief for a target site or project. It maps the entity, audience, answer intents, owned source assets, AI-readable entry points, crawl/index foundations, and citation readiness.
+ganhuo-ai-discoverability creates an AI Discoverability Brief for a target site or project. It maps the entity, audience, answer intents, promotion assets, AI-readable entry points, crawl/index foundations, and citation readiness.
 
 The goal is to make modern AI systems such as ChatGPT, Claude, Perplexity, Gemini, and Google AI answers more likely to discover, understand, recommend, and cite the project when relevant.
 
@@ -12,15 +12,18 @@ The goal is to make modern AI systems such as ChatGPT, Claude, Perplexity, Gemin
 
 - [README](https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability#readme)
 - [Skill Instructions](https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability/blob/main/SKILL.md)
-- [Checklist](https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability/blob/main/references/checklist.md)
+- [AI Discoverability Checklist](https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability/blob/main/references/ai-discoverability-checklist.md)
+- [Copy-ready Prompts](https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability/blob/main/PROMPTS.md)
+- [Demo Brief](https://github.com/yuanyuanyuan430/ganhuo-ai-discoverability/blob/main/examples/demo-brief.md)
 
 ## Best Use Cases
 
 - Improve AI visibility for a GitHub project.
 - Prepare a SaaS or tool website for AI search.
 - Clarify brand/entity positioning for AI answers.
-- Plan llms.txt, Markdown routes, sitemap, and source assets.
+- Plan llms.txt, Markdown routes, sitemap, and promotion assets.
 - Turn scattered pages into citation-ready project knowledge.
+- Create a richer GitHub README that helps the project promote itself.
 
 ## Repository
 

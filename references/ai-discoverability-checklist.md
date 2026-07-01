@@ -9,14 +9,14 @@ Score each area as `0 missing`, `1 partial`, or `2 ready`. Prioritize the items 
 | Crawl access | Search/retrieval bots and user-triggered fetchers can reach key URLs without WAF/auth/rendering failures | Update robots.txt, WAF allow rules, raw HTML, canonical/noindex, or sitemap | Fetch as plain HTML/Markdown; inspect logs or platform diagnostics |
 | AI entry files | Root domain exposes `llms.txt`, fuller project context, sitemap, and important Markdown routes | Add `llms.txt`, `llms-full.txt`, `.md` pages, and `rel="alternate"` links | Open each URL directly and confirm status 200, correct MIME/content, and internal links |
 | Index discovery | Google and Bing know the sitemap; important URLs are submitted or indexable | Submit sitemap; use URL inspection; add IndexNow for update notification where appropriate | Search-console/webmaster-tool status plus `site:` spot checks |
-| Citation readiness | Core pages contain quotable summaries, data, comparisons, caveats, and source links | Rewrite thin pages into 1000-3000 word evidence-rich pages | Check whether answer snippets can be copied without losing context |
-| Third-party proof | Relevant external pages mention or evaluate the entity honestly | Plan review, media, community, partner, or directory surfaces without fake engagement | Record source URL, independence, and likely query match |
+| Citation readiness | Core pages contain quotable summaries, data, comparisons, caveats, and material links | Rewrite thin pages into 1000-3000 word evidence-rich pages | Check whether answer snippets can be copied without losing context |
+| Third-party proof | Relevant external pages mention or evaluate the entity honestly | Plan review, media, community, partner, or directory surfaces without fake engagement | Record asset URL, independence, and likely query match |
 | Domain consolidation | Critical data is not stranded across subdomains with no root-domain path | Mirror or proxy key structured files on the main domain | Confirm root-domain URLs expose key summaries and project data |
 
 ## Routing Rules
 
 - Route to `ganhuo-geo-technical-audit` when crawlers cannot access, render, index, canonicalize, or parse the site.
-- Route to `ganhuo-llm-citation-growth` when baseline prompts, competitor citations, source gaps, or retest loops are the main work.
+- Route to `ganhuo-llm-citation-growth` when baseline prompts, competitor citations, asset gaps, or retest loops are the main work.
 - Route to `ganhuo-reddit-seo-geo` when Reddit threads already rank or appear in AI answers for the niche.
 - Mark the foundation complete when the entity is discoverable, accurately described, and backed by useful public-facing assets.
 
@@ -30,7 +30,7 @@ Score each area as `0 missing`, `1 partial`, or `2 ready`. Prioritize the items 
 | --- | --- | --- | --- | --- | --- |
 
 ### Answer Intent Map
-| Intent | Example prompt | Best current source | Gap | Priority |
+| Intent | Example prompt | Best current asset | Gap | Priority |
 | --- | --- | --- | --- | --- |
 
 ### Foundation Checklist
